@@ -35,7 +35,7 @@ foreach ($File in $FunctionFiles) {
 # The resulting merged settings are stored in a script-scoped variable.
 # The $Script: scope makes the variable available to all functions within this module,
 # but not to the user's global session.
-$Script:Settings = Initialize-SKConfiguration
+$script:Settings = Initialize-SKConfiguration
 
 # --- EXPORT MODULE MEMBERS ---
 # The functions to be exported to the user are controlled by the 'FunctionsToExport'
